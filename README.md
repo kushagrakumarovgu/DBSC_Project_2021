@@ -8,3 +8,11 @@ Steps to Execute the Project:
   4. Run process_association_rules.py to convert the output of the java program to CSV format.
   5. Run statistical_measure.py to generate the statistical measures and overall average of each statistical measure.
   6. Run sampling_statistical_measure.py to generate statistical measures from a random association rule.
+
+## Longest sequence generation.
+  seq_dict.py is an independent program to extract longest sequences from the pattern geneated by spmf java code.
+
+## Negative Tree:
+  Negative_Tree.ipynb is partial implmentaion of the paper Efficient Infrequent Pattern Mining Using Negative Itemset 
+  by Tree Yifeng Lu, Florian Richter and Thomas Seid
+  
