@@ -1,5 +1,5 @@
 # DBSC_Project_2021
-A RP-growth method for discovering interesting Infrequent Patterns.
+## A RP-growth method for discovering interesting Infrequent Patterns.
 
 Steps to Execute the Project:
   1. Download and install the open source spmf java project from https://www.philippe-fournier-viger.com/spmf/index.php?link=download.php.
