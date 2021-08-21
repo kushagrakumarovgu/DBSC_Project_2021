@@ -161,7 +161,7 @@ def cal_statistics(df):
 if __name__ == "__main__":
 
     """
-    Please provide the path of the dataset to read_dataset method(line 143)
+    Please provide the path of the dataset to read_dataset method(line 168)
     for which you would like to run this program.
     """
     dataset, len_dataset = read_dataset(
