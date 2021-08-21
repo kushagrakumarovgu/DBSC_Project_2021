@@ -165,7 +165,7 @@ def cal_statistics(df):
 if __name__ == "__main__":
 
     """
-    Please provide the path of the dataset to read_dataset method(line 158)
+    Please provide the path of the dataset to read_dataset method(line 171)
     for which you would like to run this program.
     """
     dataset, len_dataset = read_dataset(
@@ -177,7 +177,7 @@ if __name__ == "__main__":
     and their corresponding support and confidence values.
     NOTE: Incase if you don't have the CSV file, Please first run the process_asso_rules.py
     The output of the process_asso_rules.py is the input that you should give here i.e.
-    at line number 181.
+    at line number 182.
     """
     df = pd.read_csv("output_files/kosarak/asso_rule_kosarak_01_002.csv")
     df = normalize_support(df, len(dataset))
@@ -193,7 +193,7 @@ if __name__ == "__main__":
 
     df.to_csv("output_files/kosarak/kosarak_01_002.csv", index=False)
 
-    # Provide the same path that you gave in line 194 to line 197
+    # Provide the same path that you gave in line 182 to line 197
     df = pd.read_csv("output_files/kosarak/kosarak_01_002.csv", index_col=[0])
     df = cal_statistics(df)
     print(df.head())
